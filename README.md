@@ -21,3 +21,6 @@ Se realiza mide para cada entrada con las otras 2 constantes y se obtiene los si
 | Ci      | 1 → 0      | 455              | 309               |
 
 ![image](https://github.com/user-attachments/assets/469e101b-c3f5-4f93-ae5f-f9e7a11eade3)
+
+Para hacer el calculo de potencia se realiza una simulación donde se respeta el tiempo de retardo maximo y se calcula la corriente promedio de vdd a lo lardo de la prueba.
+Lo que nos da un P = 20 $\mu W$ * 1.8 $V$
