@@ -23,6 +23,6 @@ Se realiza mide para cada entrada con las otras 2 constantes y se obtiene los si
 ![image](https://github.com/user-attachments/assets/469e101b-c3f5-4f93-ae5f-f9e7a11eade3)
 
 Para hacer el calculo de potencia se realiza una simulación donde se respeta el tiempo de retardo maximo y se calcula la corriente promedio de vdd a lo lardo de la prueba.
-Lo que nos da un P = 20.8 $\mu A$ * 1.8 $V$ = 36$\mu W$
+Lo que nos da un P = 20.8 $\mu A$ * 1.8 $V$ = 36 $\mu W$
 
 ![image](https://github.com/user-attachments/assets/c8fb99a7-d4e6-490f-9b8d-d1d45bbf992c)
