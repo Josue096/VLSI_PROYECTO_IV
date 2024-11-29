@@ -43,7 +43,7 @@ Para determinar la señal crítica del registro se realiza la simulación para v
 
 ![image](https://github.com/user-attachments/assets/1968556a-4b12-4312-93bf-8854c8740f81)
 
-Esto lo que nos indica que el periodo del clock máximo es aproximadamente 1.7 ns
+Esto lo que nos indica que el periodo del clock máximo es aproximadamente 1.71 ns (584.8 MHz)
 
 ## Parte 3. Trazado de las compuertas simples
 
