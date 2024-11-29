@@ -44,3 +44,11 @@ Para determinar la señal crítica del registro se realiza la simulación para v
 ![image](https://github.com/user-attachments/assets/1968556a-4b12-4312-93bf-8854c8740f81)
 
 Esto lo que nos indica que el periodo del clock máximo es aproximadamente 1.7 ns
+
+## Parte 3. Trazado de las compuertas simples
+
+### El layout de la compuerta FAHDLLX0
+
+
+### El layout de la compuerta FAHDLLX0
+
