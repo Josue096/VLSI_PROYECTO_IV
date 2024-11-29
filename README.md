@@ -56,3 +56,6 @@ Esto lo que nos indica que el periodo del clock máximo es aproximadamente 1.7 n
 ![image](https://github.com/user-attachments/assets/eeaf4961-a4be-4716-83fb-79bde15ab25b)
 
 ### Circuito completo
+
+![image](https://github.com/user-attachments/assets/dc7a1a2b-1f07-4b67-bf8c-f265680d550b)
+
