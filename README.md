@@ -49,6 +49,10 @@ Esto lo que nos indica que el periodo del clock máximo es aproximadamente 1.7 n
 
 ### El layout de la compuerta FAHDLLX0
 
+![image](https://github.com/user-attachments/assets/ec51ae8a-df22-4255-81dd-49b4b2824aff)
 
-### El layout de la compuerta FAHDLLX0
+### El layout de la compuerta DFFHDLX0
 
+![image](https://github.com/user-attachments/assets/eeaf4961-a4be-4716-83fb-79bde15ab25b)
+
+### Circuito completo
