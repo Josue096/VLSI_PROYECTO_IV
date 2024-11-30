@@ -1,4 +1,6 @@
 # VLSI_PROYECTO_IV
+Kender Ortiz y Josué Quirós
+
 ## Parte 1. Sumador de un bit
 La celda FAHDLLX0 tiene el siguiente esquemático
 
