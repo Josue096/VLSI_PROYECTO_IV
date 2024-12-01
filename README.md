@@ -59,6 +59,8 @@ Esto lo que nos indica que el periodo del clock máximo es aproximadamente 1.71 
 
 ### Parte 4. Contador
 
+Para simular el comportamiento del contador se diseña a nivel de verilog
+
 ```verilog
 module SynchronousCounter4Bits (
     input wire clk,        
@@ -110,5 +112,16 @@ module SynchronousCounter4Bits (
 
 endmodule
 ```
+
+### Diseño esquemático del contador
+
+![image](https://github.com/user-attachments/assets/064a6252-6e6d-40ec-a63f-d9ffc1fcd8e0)
+
+![image](https://github.com/user-attachments/assets/0f4335d0-ede9-4e26-8456-7659562a6963)
+
+Para este se elije que cumpla con los 100 MHz
+
+![image](https://github.com/user-attachments/assets/9d16401a-801b-40b7-a341-ee0b21c133a7)
+
 
 
