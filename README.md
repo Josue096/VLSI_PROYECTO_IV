@@ -57,7 +57,58 @@ Esto lo que nos indica que el periodo del clock máximo es aproximadamente 1.71 
 
 ![image](https://github.com/user-attachments/assets/eeaf4961-a4be-4716-83fb-79bde15ab25b)
 
-### Circuito completo
+### Parte 4. Contador
 
-![image](https://github.com/user-attachments/assets/dc7a1a2b-1f07-4b67-bf8c-f265680d550b)
+```verilog
+module SynchronousCounter4Bits (
+    input wire clk,        
+    input wire reset,      
+    input wire down_up,   
+    output reg Q0,        
+    output reg Q1,
+    output reg Q2,
+    output reg Q3,
+    output wire TC         
+);
+
+    // Señales intermedias para los valores siguientes
+    wire next_Q0, next_Q1, next_Q2, next_Q3;
+
+    // Señales de acarreo
+    wire carry0, carry1, carry2, carry3;
+
+    // Lógica para determinar el siguiente estado de cada bit del contador
+    assign carry0 = down_up; // Primer acarreo depende de la dirección
+    assign next_Q0 = Q0 ^ carry0;
+
+    assign carry1 = (Q0 & carry0) ^ (!down_up & Q0);
+    assign next_Q1 = Q1 ^ carry1;
+
+    assign carry2 = (Q1 & carry1) ^ (!down_up & Q1);
+    assign next_Q2 = Q2 ^ carry2;
+
+    assign carry3 = (Q2 & carry2) ^ (!down_up & Q2);
+    assign next_Q3 = Q3 ^ carry3;
+
+    // Lógica de acarreo terminal
+    assign TC = down_up ? (Q0 & Q1 & Q2 & Q3) : ~(Q0 | Q1 | Q2 | Q3);
+
+    // Flip-Flops D con reset síncrono
+    always @(posedge clk) begin
+        if (reset) begin
+            Q0 <= 1'b0;
+            Q1 <= 1'b0;
+            Q2 <= 1'b0;
+            Q3 <= 1'b0;
+        end else begin
+            Q0 <= next_Q0;
+            Q1 <= next_Q1;
+            Q2 <= next_Q2;
+            Q3 <= next_Q3;
+        end
+    end
+
+endmodule
+```
+
 
